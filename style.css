@@ -1,0 +1,1411 @@
+/* Import Google Web fonts */
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic,700italic);
+
+
+/* Set the page defaults e.g. background and default typography */
+
+body {
+  background: #ffffff;
+font-family:  Verdana, Geneva, sans-serif;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+  color: 	#00693E;
+}
+
+/* a few tweaks here and there */
+
+h2 {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Set the default style of the figure element */
+
+figure {
+  margin: 0;
+}
+
+figure img {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+figcaption {
+  font-size: 14px;
+  color: #555;
+}
+
+.stephen{
+  width: 60vw;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border: 2px solid 	#00693E;
+
+}
+
+.interviewvid video{
+  height: auto;
+  width: 30vw;
+}
+
+
+
+.interviewvid{
+  margin: 1.5em;
+    flex-basis: 20%;
+
+}
+
+
+.interviewvid2 img{
+
+border-radius: 30%;
+width: 35vw;
+height: 35vh;
+
+}
+.hoverdiv2 p{
+  font-size: 11px;
+  padding: 1px;
+  text-align: center;
+
+
+}
+
+.interviewvid2 figcaption{
+  text-align: center;
+    color: 	#00693E;
+
+}
+
+.interviewvid2{
+  margin: 1.5em;
+    flex-basis: 25%;
+
+
+}
+
+
+.soceve:hover{
+  color:#BDB76B;
+}
+
+.soceve{
+  text-align: center;
+}
+
+.interviewvid4{
+  margin: 1.5em;
+    flex-basis: 30%;
+
+
+}
+
+.interviewvid4 video{
+  height: auto;
+  width: 25vw;
+}
+
+
+.martin3{
+  margin: 0 auto;
+  display: block;
+  width: 50vw;
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+.tooltiptext{
+  font-size: 7px;
+}
+
+
+.events2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+}
+
+.events3{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+}
+
+.events4{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+}
+.events5{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+.bill{
+  height: 180px;
+  width: 230px;
+  float: left;
+  padding-top: 20px;
+border-radius: 20%;
+
+}
+
+.billy{
+  width: 72%;
+  float: right;
+  padding-top: 10px;
+
+}
+
+.ss7{
+  width: 90%;
+
+}
+
+
+.billlad{
+  height: 230px;
+}
+
+
+
+.trips h4{
+  font-style: italic;
+text-align: center;
+
+}
+
+
+.usalad1{
+  height: 80px;
+}
+.usalad{
+
+  text-align: center;
+  padding-bottom: 20px;
+
+}
+.usalad b{
+  font-style: italic;
+
+}
+.usalad3
+{  text-align: center;
+
+}
+/* Default style of the blockquote element
+    Tweak this or add your won by using class names */
+.jesus{
+  padding: 0;
+}
+blockquote {
+  width: 66%;
+  margin: 2em auto;
+  background:#00693E;
+  padding: 1.2em;
+  text-align: center;
+  color: #ffffff;
+opacity: 1;
+  border: 3px solid #BDB76B;
+  font-style: italic;
+
+}
+
+/* This controls the content sections.
+    The width of the column is set by "padding" rather than the "width" style
+    e.g. 20% = 60% width. */
+
+.content {
+  margin: 0 auto;
+  padding: 5%;
+  box-sizing: border-box;
+  width: 85%;
+  background: #ffffff;
+
+}
+
+/* The footer's style */
+
+footer {
+  height: 140px;
+  background: #00693E;
+  color: #fff;
+  text-align: center;
+  padding: 0.5em;
+  font-size: 12px;
+  font-style: italic;
+}
+
+/* Styling the full-page background headers */
+
+.image_bg {
+  /* this sets the height of each
+  full width image section to that of the viewport.*/
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center !important;
+  width: 100%;
+
+}
+
+
+/* the text inside the headers */
+
+header {
+  font-family: 'Montserrat';
+  color: #ffffff;
+  font-weight: 700;
+text-shadow: 0 0 9px #000000;
+  width: 75%;
+  text-align: center;
+
+}
+
+header h1 {
+  margin: 0;
+  font-size: 6.5vw;
+
+}
+
+header a {
+  color:   	#ffffff;
+}
+
+h2 a:hover{
+color: 	#BDB76B;
+}
+
+.sidegifright{
+  position: absolute;
+  right: 2vw;
+  width: 40px;
+  height: auto;
+}
+
+.sidegifleft{
+    position: absolute;
+    left: 2vw;
+    width: 40px;
+    height: auto;
+  padding-top: 350px;
+}
+
+
+
+
+.g1{
+  padding-top: 150px;
+}
+.g3{
+    padding-top: 450px;
+}
+
+.g5{
+  padding-top: 750px;
+}
+.g7{
+padding-top: 1050px;
+}
+.g9{
+padding-top: 1350px;
+}
+.g11{
+padding-top: 1150px;
+}
+
+.g2{
+    padding-top: 300px;
+}
+.g4{
+padding-top: 600px;
+
+}
+.g6{
+  padding-top: 900px
+}
+.g8{
+padding-top: 1200px;
+}
+
+
+
+.aah{
+  width: 65vw;
+}
+
+
+
+.content iframe{
+  display: block;
+  margin: 0 auto;
+  padding: 2em;
+
+}
+
+
+
+/*. Styles for header sections to apply background images or colour. */
+
+.pier {
+  background: url(images/IMG_5380.JPG) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+.paris {
+  background: url(images/pitch1.gif);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+
+
+.my_green {
+  /* this sets the background colour of the coloured header. */
+  background: url(images/putt2.gif);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+
+
+.hole3{
+  background: url(images/steveswing23.gif);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.hole4{
+  background: url(images/chipgif2.gif);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.hole5{
+  background: url(images/drive82.gif);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+/* These are the background images defined in example.html */
+.hole6{
+  background: url(images/putt1.gif);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.hole7{
+  background: url(images/golfswing3.gif);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+.clubhouse{
+  background: url(images/club.JPG);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+
+
+
+.content{
+  border-left: 3px double;
+  border-right: 3px double;
+  border-color: #00693E;
+}
+
+
+.paris_scroll {
+  background: url(images/Paris2013.jpg);
+  background-size: cover;
+  background-attachment: scroll;
+  /*This line makes it scroll, not fixed */
+}
+
+.man {
+  background: url(images/man-2785071_1920.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100% !important;
+}
+
+.man_halftone {
+  background: url(images/man-halftone.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100% !important;
+}
+
+.oldpaper {
+  /* This style is applied to a content section
+  rather than a header section */
+  background: url(images/old-paper.jpg) no-repeat;
+  background-size: cover;
+
+}
+
+
+.beer {
+  background: url(images/beer.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100% !important;
+}
+
+.embeds {
+  background: url(images/croissant-648803_1280.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100% !important;
+}
+
+/* Example stuff - The CSS for the additional examples in example.html */
+
+.profile img { /* styles the profile images in the first header section*/
+
+  width: 90px;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin: 1em;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+
+.profile {
+  text-align: center;
+  font-weight: normal;
+}
+
+/* Styling the alternative figure example */
+
+.overlay_fig {
+  position: relative;
+}
+
+.overlay_fig img {
+  box-shadow: none;
+}
+
+.overlay_fig figcaption {
+  position: absolute;
+  bottom: 1em;
+  left: 1em;
+  background: rgba(0, 0, 0, 0.6);
+  width: 66%;
+  font-size: 2em;
+  color: white;
+  padding: 0.33em;
+}
+
+
+.content.man {
+  /* This style creates an alternative style for the column of content
+  the column is ofset to the right of the viewport rather than centred */
+  padding: 1em 10% 1em 60%;
+}
+
+
+/*Alternative blockquote styles */
+.bq_one {
+  font-size: 18px;
+  font-family: georgia, serif;
+  color: #900C3F;
+  background: #FAD7A0;
+  padding: 1em;
+  border-left: 8px solid #C70039;
+}
+
+.bq_two {
+  background: none;
+}
+
+/* Making the rows */
+
+.flex_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  margin: 0.5em;
+  flex-basis: 20%; /*This determines each item's width*/
+  flex-grow: 1; /* This makes each item grow to fit the available space. set to 0 to tuen off*/
+}
+
+.round img {
+  border-radius: 50%;
+}
+
+.embed_bg { /* a hack to make embedding stuff into the headers work */
+  /* height: 100vh; */
+   /* this sets the height of each full width image section to that of the viewport.*/
+   position: relative;
+   /*display: flex;  */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-position: center !important;
+}
+
+
+/* Create an overlay colour or image
+to cover the background image of a full screen header.
+This could be a transparent colour - see the coomented line below, or an image.
+The image defined below is a black/transparent vignette-styled png file.   */
+.overlay_full {
+  position: absolute;
+/* background: rgba(122,55,0,0.3); */
+background: url(images/grad1.png) no-repeat;
+background-size: cover;
+width: 100%;
+height: 100vh;
+z-index: 2;
+}
+
+.front { /* apply this to the header that corresponds to the overlay_full element.
+  It will ensure that the header and text go above the overlay colour or image*/
+  z-index:100;
+}
+
+
+.overlay_full_holes {
+  position: absolute;
+/* background: rgba(122,55,0,0.3); */
+background: url(images/top_secret.png) no-repeat;
+background-size: cover;
+width: 100%;
+height: 100vh;
+z-index: 2;
+}
+
+
+/* Style the navbar */
+
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+  background-color: black; opacity: 0.95; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 10vh; /* Place content 60px from the top */
+    overflow-y: hidden;
+
+}
+
+/* The navigation menu links */
+.sidenav a {
+
+    text-decoration: none;
+    font-size: 16px;
+    color: #818181;
+    padding: 2px;
+
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #BDB76B;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.holenav{
+  display: flex;
+  justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.holenav img{
+height: 27vh;
+}
+
+.holenav p{
+  vertical-align: middle;
+  text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.beery{
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  height: 70vh;
+  width: auto;
+  padding: 2em;
+
+}
+
+.firstbox{
+  margin: 1em;
+  flex-basis: 20%;
+}
+
+.club p{
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+
+
+
+
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('images/golfload.gif') 50% 50% no-repeat rgb(0,0,0);
+    opacity: 100%;
+
+}
+
+.intro h2{
+text-align: center;
+padding-bottom: 10px;
+font-family: 'Montserrat', sans-serif;
+}
+
+.events{
+  display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding: 0;
+height: 200px;
+}
+.events9{
+  display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding: 0;
+
+}
+
+.itemround{
+  margin: 2.5em;
+    flex-basis: 20%;
+
+}
+.itemround img{
+  border-radius: 50%;
+}
+
+.itemround img:hover{
+
+}
+
+.itemnotround{
+
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+
+
+}
+.itemround .tooltiptext {
+    visibility: hidden;
+    width: 100px;
+    height: 30px;
+    background-color: #BDB76B;
+    color: #fff;
+    text-align: center;
+    padding: 2px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+
+}
+.itemround:hover .tooltiptext {
+    visibility: visible;
+}
+
+.itemnotround .tooltiptext {
+    visibility: hidden;
+    width: 150px;
+    height: 50px;
+    background-color: #BDB76B;
+    color: #fff;
+    text-align: center;
+    padding: 2px 0;
+    border-radius: 6px;
+font-size: 12px;
+padding-top: 5px;
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+
+
+
+}
+
+
+
+
+.itemnotround:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+
+.below{
+  display: flex;
+flex-wrap: wrap;
+justify-content: center;
+height: 170px;
+
+  }
+
+.below h3{
+  font-size: 11px;
+  margin: 3em;
+  padding: 0;
+    flex-basis: 20%;
+    text-align: center;
+
+}
+.events h3{
+font-style: italic;
+font-weight: bold;
+font-size: 12px;
+margin: 1em;
+padding-bottom: 2px;
+font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+
+.snaps img{
+  padding: 2em;
+  border-radius: 50%;
+  border-color: black;
+  border-width: 20px;
+}
+
+
+
+
+.openme img{
+  position: fixed;
+  display: block;
+  z-index: 998;
+
+  bottom: 0;
+  right: 0;
+  height: 7vh;
+  width: auto;
+padding: 1em;
+
+}
+
+.openme img{
+color: white;
+cursor: pointer;
+}
+
+.holeone h2{
+  padding-top: 3vh;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.holeone{
+  padding-top: 40px;
+
+}
+
+
+
+.arrow_box{display: block; left: 9vw; position: absolute; bottom: -10px; padding: 0; margin: 0;}
+.arrow_box p{
+  padding: 0;
+  margin: 0;
+  color: 	#ffffff;
+  font-size: 25px;
+  text-decoration: none;
+  text-shadow: 0;
+
+    font-family: 'Montserrat', sans-serif;
+
+font-weight: bolder;
+}
+
+
+.arrow_box2{display: block; left: 9vw; position: absolute; bottom: -10px; padding: 0; margin: 0;}
+.arrow_box2 p{
+  padding: 0;
+  margin: 0;
+  color: 	#ffffff;
+  font-size: 25px;
+  text-decoration: none;
+  text-shadow: 0;
+    font-family: 'Montserrat', sans-serif;
+font-weight: bolder;
+}
+
+
+.holeone{
+  z-index: 91;
+}
+.holeone h2{
+display: block;
+padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.paris h1:hover{
+	animation: bounce 1s;
+}
+
+.call h1:hover{
+  animation: bounce 1s;
+}
+
+
+
+.ages{
+width: 45%;
+float: left;
+
+}
+
+.agebox{
+  display: inline-block;
+  float: right;
+  font-weight: bold;
+
+}
+
+
+#piechart_3d{
+position: absolute;
+right: 0;
+display: block;
+text-align: center;
+padding-top: 25px;
+width: 62%;
+height: 42vh;
+
+
+}
+
+.righttitle{
+  float: right;
+  font-size: 16px;
+padding-right: 160px;
+}
+
+
+
+
+.ages h2{
+  padding-left: 13vw;
+  padding-top: 18px;
+  font-size: 16px;
+}
+
+
+.golfer ul{
+list-style-type: none;
+
+}
+
+.golfer ul li:before{
+
+  content: '';
+
+  display: inline-block;
+
+  height: 15px;
+
+  width: 15px;
+
+   background-size: 15px;
+
+  background-image: url("images/golfball.png");
+
+  background-repeat: no-repeat;
+
+  margin-right: 5px;
+}
+
+.golfer ul li{
+  font-size: 18px;
+  line-height: 2;
+  padding-top: 5px;
+
+}
+
+
+.golfer{
+height: 300px;
+position: relative;
+
+}
+
+
+.slides img{
+  width: 99%;
+  height: 40vh;
+}
+
+.hoverplease{
+  font-style: italic;
+  text-align: center;
+}
+
+
+
+.ho *{
+	box-sizing: border-box;
+}
+.ho {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	max-width: 100%;
+	height: auto;
+}
+.ho img {
+	max-width: 99%;
+}
+.ho .ho-layer_bottom {
+	display: block;
+}
+.ho .hoverdiv {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 99%;
+	height: 100%;
+	background: rgb(0,105,62, .75);
+	color: #fff;
+	padding: 15px;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+}
+.ho:hover .hoverdiv,
+.ho.active .hoverdiv {
+	opacity: 1;
+
+}
+
+
+.ho .ho-text {
+	text-align: center;
+	font-size: 12px;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.hoverdiv p{
+  text-align: center;
+}
+.hoverdiv figcaption{
+  text-align: center;
+  color: #fff;
+
+}
+
+.ho .hoverdiv2 {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 90%;
+  border-radius: 30%;
+
+	background: rgb(0,105,62, .75);
+	color: #fff;
+	padding: 10px;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+}
+.ho:hover .hoverdiv2,
+.ho.active .hoverdiv2 {
+	opacity: 0.95;
+}
+.ho .ho-text {
+	text-align: center;
+	font-size: 12px;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.hoverdiv2 p{
+  text-align: center;
+}
+
+
+
+
+.slick-prev:before, .slick-next:before{
+  color: 	#00693E;
+}
+
+.moretexthere{
+  padding: 20px;
+  padding-bottom: 10px;
+}
+
+.martin{
+  padding-left: 0;
+float: left;
+
+}
+
+
+.flyover video{
+  float: right;
+  padding: 0;
+  margin: 0;
+    padding-top: 20px;
+height: auto;
+width: 45%;
+
+
+}
+
+
+
+.textbenefits{
+  padding-top: 10px;
+  padding-bottom: 20px;
+width: 45%;
+
+}
+
+.martintext{
+
+position: absolute;
+display: block;
+width: 60%;
+padding-top: 60px;
+right: 0;
+}
+
+.yeah{
+  position: relative;
+height: 160px;
+}
+
+.golfviews h2{
+font-size: 14px;
+text-align: center;
+padding-bottom: 30px;
+
+}
+.golfviews h4{
+  font-size: 12px;
+}
+
+.golfviews p{
+  font-size: 13px;
+}
+
+.toto{
+  float: right;
+  padding: 0;
+
+}
+.cap{
+padding-top: 6px;
+  }
+
+.golfviews img{
+  height: 160px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.firstpersonsays{
+  float: right;
+  width: 75%;
+  padding-top: 3vh;
+}
+
+.secondpersonsays{
+  float: left;
+  width: 75%;
+  padding-top: 5vh;
+padding-right: 3vw;
+
+}
+
+
+.pints{
+  width: 100%;
+  padding-top: 20px;
+
+}
+.pints img{
+  width: 8.5%;
+  height: 65px;
+}
+.title3{
+  text-align: center;
+  padding: 2em;
+
+}
+.title3 h2{
+
+}
+
+
+.toobig{
+  padding: 0;
+  height: 15vh;
+}
+
+ .flipperyo{
+   height: 150px;
+   padding-top: 30px;
+   width: 80%;
+   text-align: center;
+font-weight: bolder;
+font-size: 16px;
+padding-left: 100px;
+ }
+
+
+.flip-container {
+    -webkit-perspective: 1000;
+
+    -moz-perspective: 1000;
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+
+    -o-perspective: 1000;
+
+    perspective: 1000;
+
+
+    padding: 0;
+
+}
+
+
+/* flip speed goes here */
+.flipper {
+    -webkit-transition: 0.6s;
+    -webkit-transform-style: preserve-3d;
+
+    -moz-transition: 0.6s;
+    -moz-transform-style: preserve-3d;
+
+    -o-transition: 0.6s;
+    -o-transform-style: preserve-3d;
+
+    transition: 0.6s;
+    transform-style: preserve-3d;
+
+    position: relative;
+    padding: 0;
+}
+
+.flipper > img {
+    opacity: 0;
+    z-index: 0;
+}
+
+.flipper.flipped {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+/* hide back of pane during swap */
+.front, .back {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+    z-index: 2;
+}
+
+/* back, initially hidden pane */
+.back {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.flip-container:hover{
+  cursor: pointer;
+  color: #BDB76B;
+
+}
+
+.panel{
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+  font-size: 10px;
+}
+
+.containerfacts{
+  width: 100%;
+}
+
+.panel:hover h2{
+  color:#BDB76B;
+
+}
+
+.panel h2{
+  font-size: 16px;
+  font-weight: bolder;
+  font-style: italic;
+
+}
+
+.rose{
+  padding-top: 50px;
+}
+
+.container4{
+  width: 100%;
+  position: relative;
+height: 240px;
+
+}
+.container4 p{
+  font-size: 13px;
+}
+.lefty{
+  width: 48%;
+float: left;
+padding-top: 5px;
+
+}
+.containerbro{
+  max-height: 200px;
+  overflow-x: hidden;
+overflow-y: scroll;
+
+
+
+}
+
+.hello{
+  height: 100px;
+}
+.containerbro p{
+  font-size: 14px;
+}
+
+.righty{
+  position: absolute;
+  display: block;
+  width: 48%;
+  right: 0;
+}
+
+.Sean{
+  width: 100%;
+position: relative;
+}
+
+.Sean img{
+border-radius: 35%;
+  width: 200px;
+  height: 200px;
+}
+
+.seanpanel p{
+font-size: 16px;
+
+}
+.Sean p{
+  font-size: 16px;
+  text-align: center;
+}
+.yop{
+  padding-top: 10px;
+}
+
+.leftvid{
+
+}
+.rightvid{
+  display: inline-block;
+}
