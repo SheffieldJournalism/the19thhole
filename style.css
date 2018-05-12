@@ -24,7 +24,9 @@ h2 {
 img {
   max-width: 100%;
 }
-
+.jesus{
+  height: 65vh;
+}
 /* Set the default style of the figure element */
 
 figure {
@@ -48,7 +50,11 @@ figcaption {
   border: 2px solid 	#00693E;
 
 }
-
+.jesus{
+  display: block;
+  margin: 0 auto;
+  padding: 2em;
+}
 .interviewvid video{
   height: auto;
   width: 30vw;
@@ -72,11 +78,15 @@ height: 35vh;
 }
 .hoverdiv2 p{
   font-size: 10px;
-  padding: 2%;
+  padding: 4%;
   text-align: center;
 
 
 }
+.hoverdiv p{
+  font-size: 12px;
+}
+
 
 .interviewvid2 figcaption{
   text-align: center;
@@ -355,10 +365,12 @@ padding-top: 1200px;
 
 
 
-.content iframe{
+.trips iframe{
   display: block;
   margin: 0 auto;
   padding: 2em;
+  width: 70%;
+  height: 60vh;
 
 }
 
@@ -717,7 +729,7 @@ font-family: 'Montserrat', sans-serif;
 flex-wrap: wrap;
 justify-content: center;
 padding: 0;
-height: 35vh;
+height: 32vh;
 }
 .events9{
   display: flex;
@@ -1050,7 +1062,7 @@ position: relative;
 
 .ho .ho-text {
 	text-align: center;
-	font-size: 12px;
+	font-size: 10px;
 	display: inline-block;
 	position: absolute;
 	top: 50%;
@@ -1067,8 +1079,18 @@ position: relative;
 .hoverdiv figcaption{
   text-align: center;
   color: #fff;
+  font-size: 12px;
+  font-style: italic;
 
 }
+.paul iframe{
+  margin: 0 auto;
+  display: block;
+  width: 56%;
+  height: 50vh;
+  padding: 2em;
+}
+
 
 .ho .hoverdiv2 {
 	opacity: 0;
@@ -1095,7 +1117,7 @@ position: relative;
 }
 .ho .ho-text {
 	text-align: center;
-	font-size: 12px;
+	font-size: 10px;
 	display: inline-block;
 	position: absolute;
 	top: 50%;
@@ -1323,21 +1345,40 @@ padding-left: 7vw;
 }
 
 .panel{
-  display: inline-block;
-  width: 30%;
   margin: 1.5em;
+    flex-basis: 25%;
   text-align: center;
   font-size: 10px;
 }
 
 .containerfacts{
   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
 }
 
 .panel:hover h2{
   color:#BDB76B;
 
 }
+.Sean{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+}
+.seanpanel{
+  margin: 1.5em;
+    flex-basis: 28%;
+  text-align: center;
+}
+.seanpanel p{
+  width: 100%;
+}
+
 
 .panel h2{
   font-size: 15px;
@@ -1388,10 +1429,6 @@ overflow-y: scroll;
   right: 0;
 }
 
-.Sean{
-  width: 100%;
-position: relative;
-}
 
 .Sean img{
 border-radius: 35%;
@@ -1403,16 +1440,12 @@ border-radius: 35%;
 font-size: 16px;
 
 }
-.seanpanel{
-  width: 30%;
-}
 
-.Sean p{
+
+.yop{
+
   font-size: 16px;
   text-align: center;
-}
-.yop{
-  padding-top: 10px;
 }
 
 .leftvid{
