@@ -732,7 +732,7 @@ font-family: 'Montserrat', sans-serif;
 flex-wrap: wrap;
 justify-content: center;
 padding: 0;
-height: 180px;
+height: 200px;
 }
 .events9{
   display: flex;
@@ -838,7 +838,7 @@ font-family: 'Montserrat', sans-serif;
 
 .events img{
   width: 100%;
-  height: 150px;
+  height: 180px;
 }
 
 
@@ -1164,9 +1164,6 @@ width: 45%;
 
 }
 
-.heightmaz{
-height: 300px;
-}
 
 
 .textbenefits{
