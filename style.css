@@ -76,7 +76,7 @@ figcaption {
 
 border-radius: 30%;
 width: 35vw;
-height: 35vh;
+height: 225px;
 
 }
 .hoverdiv2 p{
@@ -172,7 +172,7 @@ height: 35vh;
 
 .bill{
   height: 180px;
-  width: 23%;
+  width: 15vw;
   float: left;
   padding-top: 20px;
 border-radius: 20%;
@@ -732,7 +732,7 @@ font-family: 'Montserrat', sans-serif;
 flex-wrap: wrap;
 justify-content: center;
 padding: 0;
-height: 32vh;
+height: 180px;
 }
 .events9{
   display: flex;
@@ -815,7 +815,7 @@ padding-top: 5px;
   display: flex;
 flex-wrap: wrap;
 justify-content: center;
-height: 170px;
+height: 200px;
 
   }
 
@@ -832,13 +832,13 @@ font-style: italic;
 font-weight: bold;
 font-size: 12px;
 margin: 1em;
-padding-bottom: 2vh;
+padding-bottom: 0;
 font-family: 'Montserrat', sans-serif;
 }
 
 .events img{
   width: 100%;
-  height: 30vh;
+  height: 150px;
 }
 
 
@@ -1103,7 +1103,7 @@ position: relative;
 	right: 0;
 	bottom: 0;
 	width: 99%;
-	height: 90%;
+	height: 225px;
   border-radius: 30%;
 
 	background: rgba(0,105,62, 0.75);
@@ -1165,7 +1165,7 @@ width: 45%;
 }
 
 .heightmaz{
-height: 50vh;
+height: 300px;
 }
 
 
@@ -1201,7 +1201,7 @@ padding-bottom: 30px;
 }
 
 .golfviews p{
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .toto{
